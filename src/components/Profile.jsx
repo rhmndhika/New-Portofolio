@@ -1,5 +1,4 @@
 import React from 'react'
-import Typical from 'react-typical'
 import './Profile.css'
 import { Button} from '@chakra-ui/react'
 
@@ -20,13 +19,14 @@ export default function Profile() {
                     {" "}
                     <h1>
                         {" "}
-                        <Typical 
+                        {/* <Typical 
                         loop={Infinity}
                         steps={[
                             "Front-End Developer",
                             1000
                         ]}
-                        />
+                        /> */}
+                        <h2>Front-End Developer</h2>
                     </h1>
                     <span className='profile-description'>
                         Learning Website with ReactJS.
