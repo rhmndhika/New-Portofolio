@@ -28,9 +28,9 @@ export default function Profile() {
                         /> */}
                         <h2>Front-End Developer</h2>
                     </h1>
-                    <span className='profile-description'>
+                    {/* <span className='profile-description'>
                         Learning Website with ReactJS.
-                    </span>
+                    </span> */}
                 </span>
             </div>
                 <div className='profile-options'>
