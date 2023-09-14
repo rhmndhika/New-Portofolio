@@ -1,0 +1,136 @@
+.profile-container{
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr);
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     height: 10%;
+     min-height: fit-content;
+     background-color: #1B2430;
+     width: 100%;
+ }
+ 
+ .profile-parent{
+     display: flex;
+     align-items: center;
+     color: aliceblue;
+ }
+ 
+ .profile-details{
+     font-size: 24px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .profile-details-role{
+     display: flex;
+     flex-direction: column;
+     margin: 14px 0 24 0;
+ }
+ 
+ .profile-details-role h1{
+     font-size: 40px;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+ .primay-text{
+     color: (--white);
+ }
+ 
+ .highlighted-text{
+     color: var(--dark-orange);
+ }
+ 
+ .profile-description{
+     font-size: 19px;
+     margin: 5px 0 0 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ .profile-picture {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     height: 380px;
+     width: 380px;
+     margin: 0 0px 0 100px;
+ }
+ 
+ .profile-picture-background{
+     height: 92%;
+     width: 92%;
+     background-image: url("../assets/Home/Paspoto1.jpg");
+     background-size: cover;
+     border-radius: 50%;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ 
+ .profile-picture-background:hover{
+     transform: scale(1.07);
+     transition: 1s ease-out;
+ }
+ 
+ .btn-resume{
+     margin: 10px;
+ }
+ 
+ .col .col-icons a{
+     padding: 8px;
+     padding-left: 0px;
+ }
+ 
+ .col .col-icons a:hover{
+     transform: scale(1.5);
+ }
+ 
+ @media screen and (max-width: 1110px) {
+     .profile-picture{
+         margin: 0 0px 0 70px;
+     }
+     .profile-details-name{
+         font-size: 20px;
+     }
+     .profile-details-role .primary-text{
+         font-size: 12px;
+     } 
+     .profile-opntions .btn{
+         width: 120px;
+         padding: 11px 0;
+         z-index:  700;
+     }
+ }
+ 
+ @media screen and (max-width: 910px) {
+     .profile-picture{
+         height: 320px;
+         width: 320px;
+         margin: 0 0 0 4px;
+     }
+ }
+ 
+ @media screen and (max-width: 810px) {
+     .profile-picture{
+         margin: 0 !important;
+     }
+     .profile-parent{
+         flex-direction: column-reverse;
+         margin: 4px 0 0 0;
+     }
+     .profile-options{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .profile-details{
+         margin: 25px 0 0;
+     }
+     .profile-options .btn-resume{
+         margin: 0 !important;
+     }
+     .profile-details-role{
+         text-align: center;
+     }
+ }
+ 
+ 
