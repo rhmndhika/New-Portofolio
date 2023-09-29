@@ -6,6 +6,7 @@ import Ecommerce from './assets/SiteImages/E-commerce.png';
 import Fakestagram from './assets/SiteImages/Fakestagram.png';
 import Joule from './assets/SiteImages/JouleApp.png';
 import PhoneBook from './assets/SiteImages/PhoneBook.png';
+import TangerangCoffee from './assets/SiteImages/TangerangCoffee.png';
 
 export const Project = [
     {
@@ -79,5 +80,14 @@ export const Project = [
         img: BosenJomblo,
         site: "https://bosen-jomblo-app.vercel.app/calonpasangan",
         git: "https://github.com/rhmndhika/BosenJomblo"
+    },
+    {
+        id: 9,
+        name: "Tangerang Coffee Recommendation",
+        category: "Webiste",
+        description: "Search best coffee shop near you",
+        img: TangerangCoffee,
+        site: "https://coffee-shop-recommendation.vercel.app/",
+        git: "https://github.com/rhmndhika/CoffeeShopRecommendation"
     },
 ]
