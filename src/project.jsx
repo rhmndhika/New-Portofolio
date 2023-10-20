@@ -7,6 +7,8 @@ import Fakestagram from './assets/SiteImages/Fakestagram.png';
 import Joule from './assets/SiteImages/JouleApp.png';
 import PhoneBook from './assets/SiteImages/PhoneBook.png';
 import TangerangCoffee from './assets/SiteImages/TangerangCoffee.png';
+import Promptopia from './assets/SiteImages/Promptopia.png';
+
 
 export const Project = [
     {
@@ -89,5 +91,14 @@ export const Project = [
         img: TangerangCoffee,
         site: "https://coffee-shop-recommendation.vercel.app/",
         git: "https://github.com/rhmndhika/CoffeeShopRecommendation"
+    },
+    {
+        id: 10,
+        name: "Promptopia",
+        category: "Webiste",
+        description: "AI Prompt generated website made with next-js, react, tailwind css and mongodb",
+        img: Promptopia,
+        site: "https://promptopia-rhmndhika.vercel.app/",
+        git: "https://github.com/rhmndhika/Promptopia"
     },
 ]
