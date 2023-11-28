@@ -8,6 +8,9 @@ import Joule from './assets/SiteImages/JouleApp.png';
 import PhoneBook from './assets/SiteImages/PhoneBook.png';
 import TangerangCoffee from './assets/SiteImages/TangerangCoffee.png';
 import Promptopia from './assets/SiteImages/Promptopia.png';
+import CoffeeValley from './assets/SiteImages/CoffeeValleyIMG.jpg';
+import JobFairCV from './assets/SiteImages/JobFairCV.jpg';
+
 
 
 export const Project = [
@@ -100,5 +103,22 @@ export const Project = [
         img: Promptopia,
         site: "https://promptopia-rhmndhika.vercel.app/",
         git: "https://github.com/rhmndhika/Promptopia"
+    },
+    {
+        id: 11,
+        name: "CoffeeValley",
+        category: "Webiste",
+        description: "DataOn Test",
+        img: CoffeeValley,
+        site: "https://coffee-valley-one.vercel.app/",
+        git: "https://github.com/rhmndhika/CoffeeValley"
+    }, {
+        id: 10,
+        name: "JobFair CV-Application",
+        category: "Webiste",
+        description: "Welcome to JobFair. Your Gateway to Career Success! Are you ready to take the next step in your professional journey? Look no further! Our job fair is not just an event; it's a unique opportunity for you to connect with top-notch employers and elevate your career to new heights. At JobFair, we understand the importance of a stellar CV in making a lasting impression on potential employers. That's why we've introduced our innovative CV Application platform, designed to streamline and enhance your job application process.",
+        img: JobFairCV,
+        site: "https://cv-application-snowy.vercel.app/",
+        git: "https://github.com/rhmndhika/CV-Application"
     },
 ]

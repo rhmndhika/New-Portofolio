@@ -37,20 +37,11 @@ export default function Header () {
         Eager to face more challenges regarding ways to optimize user experience.
         </Text>
         <Stack spacing={6} direction={'row'}>
-          {/* <Button
-            rounded={'full'}
-            px={6}
-            colorScheme={'orange'}
-            bg={'orange.400'}
-            _hover={{ bg: 'orange.500' }}>
-            Get started
-          </Button> */}
           <Button rounded={'full'} px={6}>
             Projects
           </Button>
         </Stack>
         <Flex w={'full'}>
-          {/* <Illustration height={{ sm: '24rem', lg: '28rem' }} mt={{ base: 12, sm: 16 }} /> */}
         </Flex>
       </Stack>
     </Container>
