@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
   Box,
   Flex,
@@ -15,52 +15,55 @@ import {
   Stack,
   useColorMode,
   Center,
-} from '@chakra-ui/react'
-import { MoonIcon, SunIcon } from '@chakra-ui/icons'
+} from "@chakra-ui/react";
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 interface Props {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 const NavLink = (props: Props) => {
-  const { children } = props
+  const { children } = props;
 
   return (
     <Box
       as="a"
       px={2}
       py={1}
-      rounded={'md'}
+      rounded={"md"}
       _hover={{
-        textDecoration: 'none',
-        bg: useColorModeValue('gray.200', 'gray.700'),
+        textDecoration: "none",
+        bg: useColorModeValue("gray.200", "gray.700"),
       }}
-      href={'#'}>
+      href={"#"}
+    >
       {children}
     </Box>
-  )
-}
+  );
+};
 
 export default function Navbar() {
-  const { colorMode, toggleColorMode } = useColorMode()
-  const { isOpen, onOpen, onClose } = useDisclosure()
+  const { colorMode, toggleColorMode } = useColorMode();
+  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box>
-            <Text fontSize="20px" fontWeight="bold">Rahman Dhika</Text>
+            <Text fontSize="20px" fontWeight="bold">
+              Rahman Dhika
+            </Text>
           </Box>
 
-          <Flex alignItems={'center'}>
-            <Stack direction={'row'} spacing={7}>
+          <Flex alignItems={"center"}>
+            <Stack direction={"row"} spacing={7}>
               <Button onClick={toggleColorMode}>
-                {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+                {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button>
             </Stack>
           </Flex>
         </Flex>
       </Box>
     </>
-  )
+  );
 }

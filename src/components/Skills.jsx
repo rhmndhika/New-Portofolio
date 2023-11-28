@@ -1,15 +1,15 @@
-import React from 'react';
-import { Box, Text, Progress } from '@chakra-ui/react';
+import React from "react";
+import { Box, Text, Progress } from "@chakra-ui/react";
 
 const skills = [
-  { name: 'HTML', level: 90 },
-  { name: 'CSS', level: 90 },
-  { name: 'JavaScript', level: 80 },
-  { name: 'ReactJS', level: 90 },
-  { name: 'Git', level: 60 },
-  { name: 'MongoDB', level: 90 },
-  { name: 'MySQL', level: 75 },
-  { name: 'Ionic Framework', level: 75 },
+  { name: "HTML", level: 90 },
+  { name: "CSS", level: 90 },
+  { name: "JavaScript", level: 80 },
+  { name: "ReactJS", level: 90 },
+  { name: "Git", level: 60 },
+  { name: "MongoDB", level: 90 },
+  { name: "MySQL", level: 75 },
+  { name: "Ionic Framework", level: 75 },
 ];
 
 const Skills = () => {

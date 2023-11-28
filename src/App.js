@@ -12,10 +12,8 @@ function App() {
       <Navbar />
       <ErrorAlert status="info" />
       <Profile />
-      {/* <About /> */}
       <Header />
       <ProjectCard />
-      {/* <Skills /> */}
     </div>
   );
 }
